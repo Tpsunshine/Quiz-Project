@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>Edureka Quiz</title>
+    <link rel="stylesheet" href="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+    <link href="style.css" rel="stylesheet">
+    <script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jqueryui.min.js">
+
+    </script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+<script src="my.js"></script>
+
+</head>
+
+<body>
+    <h1>Edureka! Quiz</h1>
+    <div id="percentage"></div>
+    <br>
+    <form id="quiz" name="quiz">
+        <p id="ques1">What is 44 + 55</p>
+        <input type="radio" name="question1" value="11" /><span id="11">11</span>
+        <input type="radio" name="question1" value="55" /><span id="55">55</span></br>
+        <input type="radio" name="question1" value="88" /><span id="88">88</span>
+        <input type="radio" name="question1" value="99" /><span id="99">99 </span>
+
+        <p id="ques2">Study of the structure of the body is called____________</p>
+        <input type="radio" name="question2" value="Anatomy" /><span id="a2">anatomy</span>
+        <input type="radio" name="question2" value="Biology" /><span id="Biology">Biology</span>
+        <input type="radio" name="question2" value="Psychology" /><span id="Psychology">Psychology</span>
+        <input type="radio" name="question2" value="Botany" /><span id="Botany">Botany</span>
+
+        <p id="ques3">The Adminstrative Capital City of South Africa is____________________</p>
+        <input type="radio" name="question3" value="Johannesburg" /><span id="Johannesburg">Johannesburg</span>
+        <input type="radio" name="question3" value="Pretoria" /><span id="Pretoria">Pretoria</span>
+        <input type="radio" name="question3" value="Bloemfontein" /><span id="Bloemfontein">Bloemfontein</span>
+        <input type="radio" name="question3" value="Cape Town" /><span id="Cape Town">Cape Town</span></br>
+
+        <input id="button" type="button" value="I am finished" onclick="check();">
+
+
+    </form>
+
+    <div id="after_submit">
+        <p id="number_correct"></p>
+        <p id="message"></p>
+        <img id="picture" width="400px">   
+    </div>
+</body>
+
+</html>
